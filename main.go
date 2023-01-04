@@ -77,7 +77,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"         // 三次元小姐姐
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"       // cp短打
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"      // DeepDanbooru二次元图标签识别
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"         // 嘉心糖发病
+//	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"         // 嘉心糖发病
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dress"         // 女装
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drift_bottle"  // 漂流瓶
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"      // 合成emoji
@@ -238,7 +238,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	// sus = append(sus, 12345678)
+	 sus = append(sus, 2036435404)
 	// sus = append(sus, 87654321)
 
 	if *runcfg != "" {
