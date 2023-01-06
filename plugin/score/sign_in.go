@@ -29,7 +29,7 @@ import (
 )
 
 const (
-	backgroundURL = "https://api.yimian.xyz/img?type=moe&size=1920x1080"
+	backgroundURL = "https://v1.yurikoto.com/wallpaper"
 	signinMax     = 1
 	// SCOREMAX 分数上限定为1200
 	SCOREMAX = 1200
